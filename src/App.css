@@ -28,3 +28,27 @@ body {
 .slide-nav.close {
   left: -200px;
 }
+
+.full-screen {
+  position: relative;
+  height: 572px;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.frame-container {
+  height: 100%;
+  width: 100%;
+}
+
+.frame-ellipse {
+  height: 100%;
+  width: 100%;
+  border-radius: 50% / 50%;
+  /* border: 10px solid white; */
+  rotate: 45deg;
+}
+
+.frame-ellipse * {
+  rotate: -45deg;
+}

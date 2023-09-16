@@ -85,7 +85,7 @@ function ParentInfo() {
       <div className="form-control flex flex-row gap-4">
         <label className="label cursor-pointer justify-start gap-2">
           <span className="label-text text-gray-400 flex-fit">고인 표시</span>
-          <input type="checkbox" checked={false} className="checkbox" />
+          <input type="checkbox" className="checkbox" />
         </label>
 
         <If v={true}>
@@ -93,13 +93,13 @@ function ParentInfo() {
             <div className="form-control">
               <label className="label justify-start gap-2 cursor-pointer">
                 <span className="label-text">국화꽃</span>
-                <input type="radio" name="radio-10" className="radio checked:bg-gray-500" checked />
+                <input type="radio" name="radio-10" className="radio checked:bg-gray-500" />
               </label>
             </div>
             <div className="form-control">
               <label className="label justify-start gap-2 cursor-pointer">
                 <span className="label-text">故</span>
-                <input type="radio" name="radio-10" className="radio checked:bg-gray-500" checked />
+                <input type="radio" name="radio-10" className="radio checked:bg-gray-500" />
               </label>
             </div>
           </div>

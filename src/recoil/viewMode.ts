@@ -15,7 +15,7 @@ export const viewModeState = atom({
     default: {
         navigation: {
             slide: false,
-            show: true,
+            show: false,
         },
         simulator: {
             show: true
